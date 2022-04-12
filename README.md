@@ -32,3 +32,10 @@ You should add suitable tests into the MailContainerTest.Test project.
 
 There are no additional constraints, use the packages and approach you feel appropriate, aim to spend no more than 2 hours. Please update the readme with specific comments on any areas that are unfinished and what you would cover given more time.
 
+#### Changes Done 
+- Refactored service class to extract strategies to process different types of mails following open closed principle and single responsibility principle from SOLID.
+- Added tests to validate different scenarios for strategies.
+- Refactored the creation of DataStore instances into a factory which makes code testable and removes duplication.
+
+#### Additional Possible Changes
+- More test cases for service class.

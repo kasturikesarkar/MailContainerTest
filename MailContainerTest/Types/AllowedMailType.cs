@@ -1,9 +1,8 @@
-﻿namespace MailContainerTest.Types
+﻿namespace MailContainerTest.Types;
+
+public enum AllowedMailType
 {
-    public enum AllowedMailType
-    {
-        StandardLetter = 1 ,
-        LargeLetter = 2,   
-        SmallParcel = 3
-    }
+    StandardLetter = 1 ,
+    LargeLetter = 2,   
+    SmallParcel = 3
 }

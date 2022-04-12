@@ -1,9 +1,8 @@
-﻿namespace MailContainerTest.Types
+﻿namespace MailContainerTest.Types;
+
+public enum MailContainerStatus
 {
-    public enum MailContainerStatus
-    {
-        Operational,
-        OutOfService,
-        NoTransfersIn
-    }
+    Operational,
+    OutOfService,
+    NoTransfersIn
 }

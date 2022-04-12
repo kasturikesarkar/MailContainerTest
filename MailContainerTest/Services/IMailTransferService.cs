@@ -1,9 +1,8 @@
 ﻿using MailContainerTest.Types;
 
-namespace MailContainerTest.Services
+namespace MailContainerTest.Services;
+
+public interface IMailTransferService
 {
-    public interface IMailTransferService
-    {
-        MakeMailTransferResult MakeMailTransfer(MakeMailTransferRequest request);
-    }
+    MakeMailTransferResult MakeMailTransfer(MakeMailTransferRequest request);
 }

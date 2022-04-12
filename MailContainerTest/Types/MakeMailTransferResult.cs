@@ -1,7 +1,6 @@
-﻿namespace MailContainerTest.Types
+﻿namespace MailContainerTest.Types;
+
+public class MakeMailTransferResult
 {
-    public class MakeMailTransferResult
-    {
-        public bool Success { get; set; }   
-    }
+    public bool Success { get; set; }   
 }
